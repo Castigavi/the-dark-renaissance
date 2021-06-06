@@ -15,6 +15,9 @@ This project is following the same spirit. If you want to encrypt your levels, w
 
 * - By that we mean that if for example MrShina specifically allows you to use her TRAOD Lara (from this project) in your level and encrypt it, then of course you can use it. Remember though that Lara's animations were made by Joey and so they cannot be encrypted.
 
+IMPORTANT NOTICE:
+Some of the old plugins were restored due to gameplay reasons (and also because apparently it is possible to download them anyway through old commits). They were not meant to be available publicly (mainly Krystian's plugins) due to their highly experimental state. Please DO NOT use those plugins in your project. If you need them, ask Krystian personally if you can use them. He will probably provide you with newer, better versions that are less likely to produce issues.
+
 HOW TO DOWNLOAD:
 The recommended way to download the files is to use a GitHuB Desktop application. You can download it here:
 https://desktop.github.com/
