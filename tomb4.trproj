@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>the-dark-renaissance</Name>
   <GameVersion>TRNG</GameVersion>
+  <DefaultLanguage>English</DefaultLanguage>
   <LaunchFilePath>$(ProjectDirectory)\tomb4.exe</LaunchFilePath>
   <ScriptPath>$(ProjectDirectory)\Script</ScriptPath>
   <LevelsPath>$(ProjectDirectory)\Maps</LevelsPath>
@@ -56,23 +57,10 @@
       <FolderPath>$(ProjectDirectory)\Maps\Valley</FolderPath>
       <SpecificFile>$(LatestFile)</SpecificFile>
     </ProjectLevel>
+    <ProjectLevel>
+      <Name>Cennet</Name>
+      <FolderPath>$(ProjectDirectory)\Maps\Cennet</FolderPath>
+      <SpecificFile>$(LatestFile)</SpecificFile>
+    </ProjectLevel>
   </Levels>
-  <InstalledPlugins>
-    <Plugin>
-      <Name>Plugin_AkyVMix01.dll</Name>
-      <InternalDllPath />
-    </Plugin>
-    <Plugin>
-      <Name>Plugin_ChocolateFanFlareSFX.dll</Name>
-      <InternalDllPath />
-    </Plugin>
-    <Plugin>
-      <Name>Plugin_ClassicInventory.dll</Name>
-      <InternalDllPath />
-    </Plugin>
-    <Plugin>
-      <Name>Plugin_Renaissance.dll</Name>
-      <InternalDllPath />
-    </Plugin>
-  </InstalledPlugins>
 </Project>

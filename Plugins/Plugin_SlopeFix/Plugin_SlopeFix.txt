@@ -1,0 +1,7 @@
+(Exclusively for the use in TDR at the moment, do not use in other projects!)
+
+This plugin enables Lara to slide down slopes according to their true sloping direction by enabling this option with the CUST_TRUE_SLOPES command.
+
+Another feature of this plugin is an improved version of slope turning with the left and right keys, which can also be enabled with the CUST_SLOPE_TURNING command. You can adjust desired parameters about the slope turning in the further fields of this command.
+
+This plugin is NOT finished and it still may be ridded with bugs. If you see something weird or unpredicted, please inform me (Krystian) on Discord or wherever.

@@ -1,0 +1,6 @@
+# models\objects\desert\rock_desert
+newmtl material_0
+Kd 1.0000 1.0000 1.0000
+illum 0
+map_Kd tdr_c_rock_h_material_0.tga
+

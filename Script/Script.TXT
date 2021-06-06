@@ -21,8 +21,8 @@ FMV=			.BIK
 File=			0,English.TXT
 
 [Options]
-; UNINSTALLED PLUGIN: Plugin=		6, Plugin_SlopeFix, IGNORE
-; UNINSTALLED PLUGIN: Plugin=		5, Plugin_CeilingClimbing, IGNORE
+Plugin=		6, Plugin_SlopeFix, IGNORE
+Plugin=		5, Plugin_CeilingClimbing, IGNORE
 Plugin=		4, Plugin_ClassicInventory, IGNORE
 Plugin=		3, Plugin_ChocolateFanFlareSFX, IGNORE
 Plugin=		2, Plugin_Renaissance, IGNORE

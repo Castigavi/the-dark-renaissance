@@ -1,0 +1,51 @@
+DISCLAIMER:
+This version of the plugin is EXCLUSIVELY for the use in the AOD Continuation Project made in TRLE. It should NOT be used in other projects nor should it be released to the public.
+
+Introduction
+------------
+
+The purpose of this plugin is to introduce the sloped ceiling climbing known from Tomb Raider - Angel of Darkness into the TRNG engine. Thanks to this plugin, Lara will be able to climb sloped ceiling sections (marked with monkey floortiles) upwards and downwards to access vertical climbable walls or horizontal monkey swings. This is a newer development of the plugin that implements climbing upwards and downwards the slanted ceiling, traversing from and to vertical ladders as well as monkeyswings.
+
+
+General Info
+------------
+
+In the included folder there is a wad containing a single object in the Animating1 slot. This object holds all the necessary animations required to enable ceiling climbing. You must copy this object to any slot (in practice this should be a slot with no important function, so any ANIMATING or ANIMATING_MIP slot will be perfect) and then use the AssignSlot script with the OBJ_LARA_CEILING_CLIMB constant to tell the plugin which slot you used for the object:
+
+AssignSlot= MyUsedSlot, OBJ_LARA_CEILING_CLIMB
+
+It's important to realize that the object does not have to be placed anywhere in the level, it must only exist in the WAD.
+Ceiling sections that are intended to be climbable must have the monkey attribute set, while the slope must be exactly 4 clicks steep, non-triagonal and orthogonal (the ceiling can't be sloped in both the X and Z direction).
+
+
+Installation instructions
+-------------------------
+1) Launch NG Center
+2) Go to [Plugins]
+3) Click on [Install New Plugin] and select this folder
+4) After installing the plugin copy the extra animation object (Animating1) into your WAD to any free slot of your choice (preferably an ANIMATING or ANIMATING_MIP)
+5) Use the AssignSlot= script with the new OBJ_LARA_CEILING_CLIMB constant to inform the plugin into which slot you have copied the extra object.
+
+
+Usage instructions
+------------------
+After installing the plugin and setting up the extra object correctly, using the plugin is quite simple:
+In the level editor, make a ceiling with a 4-click slope and place monkey tiles to designate where Lara should be able to climb. You can create vertical ladders to lead to this ceiling section (from the top or from the bottom) and Lara will traverse to it.
+You have to ensure that the slope has 4 clicks (no more, no less) and that it is perfectly orthogonal (there is no perpendicular sloping, so no diagonal or triangular slopes are allowed). Lara should be able to traverse to ladders under and over the sloped ceiling as long as they are placed in the direction Lara is currently looking at.
+
+The rule of monkeyswings in stacked rooms applies here as well, i.e. the monkey tile must be placed in the room with a solid floor and in the room with the solid (sloped) ceiling.
+There is a similar speech for ladders, you must apply the ladder status in the appropriate direction in the room with the lowest solid floor as well as the room where a slope-to-ladder transition exists. This is necessary to ensure that everything works properly.
+Another important thing to note is that in order to detect transitions between slopes and ladders, both the slope and the ladder must be located in the same room, otherwise the transitions will often fail. The transitions work well if the ladder / slope is located at least 3 clicks away from a horizontal portal between the rooms.
+In the case that the slope itself is split by a portal between two rooms (stacked or neighbouring), the monkey tile must not only be placed on the solid floor and sloped ceiling, but also in the room directly below the room with sloped ceiling. Further placing of monkey tiles in the remaining rooms in the stack wasn't necessary, according to my testing.
+
+
+Known bugs
+----------
+
+With the recent fixing of the south slope bug, there are no more known or expected bugs.
+If you find something unexpected or that looks strange, let me (Krystian) know on TRF in a PM or on Discord.
+
+
+Final Note:
+This plugin is still in an experimental phase. I would highly recommend backing up everything just in case something goes wrong. On my end I was able to uninstall the plugin and thus revert everything back to normal, but I can't guarantee it.
+With this plugin version all possible transitions between slopes, ladders and monkeys have been successfully implemented together with the extra slot.

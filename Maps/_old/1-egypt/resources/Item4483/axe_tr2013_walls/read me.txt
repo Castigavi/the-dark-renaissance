@@ -1,0 +1,79 @@
+--------------------------------------------------------------------------------------------
+ENGLISH
+--------------------------------------------------------------------------------------------
+
+Breakable Walls for the Axe
+
+Best to use together with the axe simiular to the one from TR 2013 in the crowbar slot I made. 
+This door works like the normal crowbar door (use OCB 2 on the door), but has a different 
+Animation. Also the Lara Animation was change so either use the Lara from the wad or copy 
+"Animation 403" into your Lara.
+
+There are 7 different textured walls in this package, but you can easily retexture them
+to one fitting your level.
+
+
+Use Wadmerger or Trwest to copy this file into your wad!!
+
+copyright by tifanazah@arcor.de
+
+
+
+
+
+*** Happy Raiding !! ***
+
+
+If you have got questions, problems or anything else, mail me:
+
+tifanazah@arcor.de
+
+
+Attention with TrWest: This files are made by Wadmerger1.9rev7 beta 2
+and they can lead to crashes with TrWest - to avoid this you can:
+- use an older WadMerger Version (WADMerger.1.8beta1) to load and resave the files...
+- read this Toturial (German Version): 
+                    http://home.arcor.de/ladyviconia/html/trwestproblem.html
+                    http://66.139.79.232/stuff/trle/FAQ-Manuals/trlefaq12.htm
+
+
+
+
+--------------------------------------------------------------------------------------------
+DEUTSCH
+--------------------------------------------------------------------------------------------
+
+Aufbrechbare Mauern für die Axt
+
+Am besten benutzt man diese Mauern mit der Axt im Crowbar Slot, die der aus TR 2013 ähnelt 
+und die ich gemacht habe.
+Diese Türen sind wie normale Brecheisen Türen zu nutzen (OCB 2 an der Tür benutzen), haben
+aber eine andere Animation. Auch im Lara Objekt wurde die Animation überarbeitet, also nutze
+die Lara aus dem wad oder kopiere "Animation 403" in dein eigenes Lara Objekt.
+
+Es gibt 7 verschieden texturierte Mauern in diesem Paket, aber sie sidn sehr einfach selber
+zu texturieren, so dass du sie jederzeit an dein Level anpassen kannst.
+
+
+Benutze Wadmerger oder Trwest um die Datein in deine Wad zu bekommen!!
+
+copyright by tifanazah@arcor.de
+
+
+
+
+
+*** Happy Raiding !! ***
+
+
+Bei Fragen, Problemen oder Sonstigem, mailt an:
+
+tifanazah@arcor.de
+
+
+Vorsicht beim TrWest: Diese Datein sind mit Wadmerger1.9rev7 beta 2 erstellt 
+und können im TrWest zu abstürzen führen - um das zu vermeiden, kann man: 
+- die Datein mit einer älteren WadMerger Version (WADMerger.1.8beta1) laden und damit abschpeichern...
+- das folgende Tutorial lesen: 
+                    http://home.arcor.de/ladyviconia/html/trwestproblem.html
+                    http://66.139.79.232/stuff/trle/FAQ-Manuals/trlefaq12.htm

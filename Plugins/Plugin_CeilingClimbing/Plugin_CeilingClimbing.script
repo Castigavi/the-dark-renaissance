@@ -1,0 +1,3 @@
+<START_CONSTANTS>
+OBJ_LARA_CEILING_CLIMB:1 ;Used with AssignSlot command.>>AssignSlot= UsedSlot, OBJ_LARA_CEILING_CLIMB>>To use overhang climbing, you must define to which slot you have copied the Freeclimbing Extra Object, which contains the necessary extra animations for Lara. This OBJ_ constant will transfer the functionality of the Extra Object to UsedSlot.
+<END>

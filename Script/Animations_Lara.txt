@@ -381,46 +381,46 @@ TriggerGroup=220, $2000, 51, $400								; First: block commands for 4 seconds
 ;================================================================================================
 ; Ceiling Climbing (by Krystian)
 ;================================================================================================
-;
-;AssignSlot=		NEW_SLOT5, OBJ_LARA_CEILING_CLIMB
-;Parameters=		PARAM_SET_CAMERA, 60, IGNORE, 2048, +4096, IGNORE, 6
-;
-;
+
+AssignSlot=		NEW_SLOT5, OBJ_LARA_CEILING_CLIMB
+Parameters=		PARAM_SET_CAMERA, 60, IGNORE, 2048, +4096, IGNORE, 6
+
+
 ; --- Restore camera ----
 ;TriggerGroup=	60,	$2000, 214, $3C	; Camera. Change camera mode with PARAM_SET_CAMERA <60>
-;
+
 ; F371 - TriggerGroup. Perform TriggerGroup <60>
 ; AnimCommand: Frame=0
 ; Set Position [-24576 - [FrameIndex]] [371] [61]
-;
-;
-;
+
+
+
 ; --- Change camera to PARAM_SET_CAMERA <61> ----
 ;TriggerGroup=	61,	$2000, 215, $3C, >		; Camera. Restore camera mode after a "change camera" flipeffect
 ;				$2000, 214, $3C			; Camera. Change camera mode with PARAM_SET_CAMERA <60>
-;
+
 ; F371 - TriggerGroup. Perform TriggerGroup <61>
 ; AnimCommand: Frame=0
 ; Set Position [-24576] [371] [61]
-;
-;
+
+
 ;GlobalTrigger=	113, IGNORE, GT_CONDITION_GROUP, IGNORE, 226, 227, 228
 ;GlobalTrigger=	113, FGT_SINGLE_SHOT_RESUMED, GT_CONDITION_GROUP, IGNORE, 226, 227, 228
-;TriggerGroup=	226, >								; IF Lara is playing animations:
-;				TGROUP_OR + $8000, 602, $1E, >			;    Animation 602
-;					TGROUP_OR + $8000, 603, $1E, >		;    Animation 603
-;					TGROUP_OR + $8000, 604, $1E, >		;    Animation 604
-;					TGROUP_OR + $8000, 605, $1E, >		;    Animation 605
-;					TGROUP_OR + $8000, 606, $1E, >		;    Animation 606
-;					TGROUP_OR + $8000, 607, $1E, >		;    Animation 607
-;					TGROUP_OR + $8000, 608, $1E, >		;    Animation 608
-;					TGROUP_OR + $8000, 610, $1E, >		;    Animation 610
-;					TGROUP_OR + $8000, 613, $1E			;    Animation 613
-;TriggerGroup=	227, $2000, 214, $13C		; THEN Change camera to PARAM_SET_CAMERA <60>
-;TriggerGroup=	228, $2000, 215, $3C		; ELSE Restore camera
-;
-;
-;
+TriggerGroup=	226, >								; IF Lara is playing animations:
+				TGROUP_OR + $8000, 602, $1E, >			;    Animation 602
+					TGROUP_OR + $8000, 603, $1E, >		;    Animation 603
+					TGROUP_OR + $8000, 604, $1E, >		;    Animation 604
+					TGROUP_OR + $8000, 605, $1E, >		;    Animation 605
+					TGROUP_OR + $8000, 606, $1E, >		;    Animation 606
+					TGROUP_OR + $8000, 607, $1E, >		;    Animation 607
+					TGROUP_OR + $8000, 608, $1E, >		;    Animation 608
+					TGROUP_OR + $8000, 610, $1E, >		;    Animation 610
+					TGROUP_OR + $8000, 613, $1E			;    Animation 613
+TriggerGroup=	227, $2000, 214, $13C		; THEN Change camera to PARAM_SET_CAMERA <60>
+TriggerGroup=	228, $2000, 215, $3C		; ELSE Restore camera
+
+
+
 ;============================================================================
 ; Monkey To Overhang Ladder (by Krystian)
 ;============================================================================
@@ -455,11 +455,11 @@ MultEnvCondition= 63,	ENV_DISTANCE_FLOOR + ENV_NON_TRUE, 300, IGNORE,>
 ;============================================================================
 ; True slopes (by Krystian)
 ;============================================================================
-;
-;Customize=	CUST_TRUE_SLOPES, ENABLED
-;Customize=	CUST_SLOPE_TURNING, ENABLED, 2048, 3, 5
-;
-;
+
+Customize=	CUST_TRUE_SLOPES, ENABLED
+Customize=	CUST_SLOPE_TURNING, ENABLED, 2048, 3, 5
+
+
 ;============================================================================
 ;   Death camera as in TR3's source code
 ;============================================================================
