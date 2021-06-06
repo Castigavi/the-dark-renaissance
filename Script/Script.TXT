@@ -133,17 +133,12 @@ WindowTitle=	Tomb Raider: The Dark Renaissance
 #INCLUDE 		"General.txt"
 #INCLUDE 		"Inventory.txt"
 #INCLUDE 		"Animations_Lara.txt"
+#INCLUDE 		"Darkness.txt"
 
 [Level]			;DREAD PALACE GHEMAL
 WindowTitle=	Tomb Raider: The Dark Renaissance
 #INCLUDE 		"Ghemal.txt"
 #INCLUDE 		"General.txt"
-
-
-
-
-
-
 #INCLUDE 		"Inventory.txt"
 #INCLUDE 		"Animations_Lara.txt"
 
@@ -151,20 +146,14 @@ WindowTitle=	Tomb Raider: The Dark Renaissance
 ; Tech Demos
 ;-------------------------------------------------
 
-
-
-
-
-
 [Level]			;TECH DEMO - LARA
 WindowTitle=	Tomb Raider: The Dark Renaissance
 #INCLUDE		"Demo.txt"
 #INCLUDE 		"General.txt"
 #INCLUDE 		"Inventory.txt"
 #INCLUDE 		"Animations_Lara.txt"
-
 #INCLUDE 		"WIP_stuff.txt"
-#INCLUDE 		"PickableStatues.txt"
+;#INCLUDE 		"PickableStatues.txt"
 
 [Level]			;TECH DEMO - KURTIS
 WindowTitle=	Tomb Raider: The Dark Renaissance
@@ -172,5 +161,4 @@ WindowTitle=	Tomb Raider: The Dark Renaissance
 #INCLUDE 		"General.txt"
 #INCLUDE 		"Inventory.txt"
 #INCLUDE 		"Animations_Kurtis.txt"
-
 #INCLUDE 		"WIP_stuff_VC_Lara.txt"
