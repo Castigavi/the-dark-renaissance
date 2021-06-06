@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<WadSounds xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SoundInfos>
+    <WadSoundInfo>
+      <Id>212</Id>
+      <Name>SAVE_CRYSTAL</Name>
+      <Volume>60</Volume>
+      <RangeInSectors>50</RangeInSectors>
+      <Chance>100</Chance>
+      <PitchFactor>0</PitchFactor>
+      <DisablePanning>true</DisablePanning>
+      <RandomizePitch>false</RandomizePitch>
+      <RandomizeVolume>true</RandomizeVolume>
+      <LoopBehaviour>None</LoopBehaviour>
+      <Samples>
+        <WadSample>
+          <FileName>save_crystal_0.wav</FileName>
+        </WadSample>
+      </Samples>
+      <Global>false</Global>
+      <Indexed>false</Indexed>
+    </WadSoundInfo>
+  </SoundInfos>
+</WadSounds>
